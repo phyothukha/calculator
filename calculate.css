@@ -1,0 +1,57 @@
+:root{
+    /*screen-display*/
+    --main-background-sreen : hsl(222, 26%, 31%);
+    --toggle-background : hsl(223, 31%, 20%);
+    --screen-background: hsl(224, 36%, 15%);
+    /*keys*/
+    --key-background: hsl(225, 21%, 49%);
+    --key-shadow: hsl(224, 28%, 35%);
+    --key-background-toggle: hsl(6, 63%, 50%);
+    --key-shadow-2: hsl(6, 70%, 34%);
+    --orange-key-background: hsl(33, 12%, 82%);
+    --orange-key-shadow: hsl(28, 16%, 65%);
+    /*text*/
+    --yellow: hsl(60, 10%, 19%);
+    --text-color: hsl(0, 0, 100%);
+    /*background*/
+    --main-background: hsl(268, 75%, 9%);
+    --keypad-background: hsl(268, 71%, 12%);
+    /*keys*/
+    --violet-key-background: hsl(281, 89%, 26%);
+    --magenta-key-shadow: hsl(285, 91%, 52%);
+    --cyan-key-background: hsl(176, 100%, 44%);
+    --cyan-key-shadow: hsl(177, 92%, 70%);
+    --dark-violet-key-background: hsl(268, 47%, 21%);
+    --dark-magenta-key-shadow: hsl(290, 70%, 36%);
+    /*texts*/
+    --Light-yellow: hsl(52, 100%, 62%);
+    --Very-dark-blue: hsl(198, 20%, 13%);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-background-sreen);
+
+}
+.screen{
+    width: 300px;
+    background: var(--screen-background);
+    height: 100px;
+    border-radius: 10px;
+}
+
+/*.key-button button{*/
+/*    padding: 10px 50px;*/
+/*    font-size: 32px;*/
+/*    margin: 10px;*/
+/*}*/
